@@ -1,0 +1,97 @@
+#headers .header {
+  position: fixed;
+  width: 100%;
+  height: var(--heading-height);
+}
+
+#headers .header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 6em;
+  width: 100%;
+  height: calc(var(--heading-height) + 10em);
+  z-index: -1;
+  transform: skewY(-3.5deg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80)
+      no-repeat center,
+    linear-gradient(#4e4376, #2b5876);
+  background-size: cover;
+  border-bottom: 0.2em solid #fff;
+}
+
+#headers h1 {
+  font-size: calc(1.8em + 1.6vw);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  padding: 0.2rem 0 0 4.5rem;
+  text-shadow: 0.022em 0.022em 0.022em #111;
+  color: #fff;
+  background-color: #111;
+}
+
+/* #mainp {
+  padding: calc(var(--heading-height) + 1.5vw) 4em 0;
+  color: #fff;
+} */
+
+#frm .p {
+  font-size: calc(2em + 0.25vw);
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 1.5em;
+  color: #fcfcfc;
+}
+#frm {
+  border: solid gray 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: white;
+  padding: 50px;
+}
+#btn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 70%;
+}
+
+#frm a {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-right: 70%;
+  text-decoration: none;
+}
+
+#footers footer {
+  position: fixed;
+  width: 100%;
+  height: var(--heading-height);
+}
+
+#footers h4 {
+  font-size: calc(0.2em + 0.6vw);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  padding: 6rem 0 0;
+  text-shadow: 0.022em 0.022em 0.022em #111;
+  color: #000000;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination li {
+  display: flex;
+  float: left;
+  padding: 8px 16px;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+}
