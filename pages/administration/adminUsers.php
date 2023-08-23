@@ -47,5 +47,6 @@
     $conn->close();
     ?>
 </body>
+<?php include "footer.php"; ?>
 
 </html>
