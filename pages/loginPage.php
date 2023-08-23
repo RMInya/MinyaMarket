@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <title>PHP login system</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>login</title>
 </head>
 
 <body>
