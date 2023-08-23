@@ -5,7 +5,6 @@
     <title>PHP login system</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<!-- fix login, add register -->
 
 <body>
 

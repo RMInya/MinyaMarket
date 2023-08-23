@@ -32,11 +32,6 @@
   background-color: #111;
 }
 
-/* #mainp {
-  padding: calc(var(--heading-height) + 1.5vw) 4em 0;
-  color: #fff;
-} */
-
 #frm .p {
   font-size: calc(2em + 0.25vw);
   font-weight: 400;

@@ -15,28 +15,6 @@ function DBconnect()
     return $conn;
 }
 
-// function createTable($conn)
-// {
-// $sql = "CREATE TABLE products (
-//         id INT(6) AUTO_INCREMENT PRIMARY KEY,
-//         productName VARCHAR(30) NOT NULL,
-//         description VARCHAR(30) NOT NULL,
-//         value DECIMAL(4,2),
-//         isactive TINYINT
-//         )";
-// create table statement (
-//     id INT(6) AUTO_INCREMENT PRIMARY KEY,
-//     userName VARCHAR(30) NOT NULL,
-//     userNumber VARCHAR(30) NOT NULL,
-//     commentary VARCHAR(100) NOT NULL
-//     )
-//     if ($conn->query($sql) === TRUE) {
-//         echo "Table created successfully";
-//     } else {
-//         echo "Error creating table: " . $conn->error;
-//     }
-// }
-
 function insertProduct($conn, $imgContent,  $productName, $productDesc, $productCost)
 {
 
